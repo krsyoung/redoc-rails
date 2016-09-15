@@ -55,6 +55,7 @@ If you want detailed information on it usage, you can refer to original document
 
 ## Changelog
 
+  - v1.3.2 : bump
   - v1.3.0 : initial version
 
 ## Contributing

@@ -1,8 +1,7 @@
 # ReDoc-Rails
 
 A Ruby Gem wrapper for the ReDoc OpenAPI Specification dynamic documentation
-project: https://github.com/Rebilly/ReDoc/
-
+project: https://github.com/Rebilly/ReDoc/.
 
 [![Gem Version](https://badge.fury.io/rb/redoc-rails.svg)](http://badge.fury.io/rb/redoc-rails)
 
@@ -51,7 +50,7 @@ $(document).on('page:load', ready)
 
 If you want detailed information on it usage, you can refer to original documentation.
 
-[https://github.com/almende/vis](https://github.com/almende/vis)
+[https://github.com/Rebilly/ReDoc](https://github.com/Rebilly/ReDoc)
 
 ## Changelog
 

@@ -23,7 +23,7 @@ Or install it yourself as:
 
 ## Usage
 
-Add this line to your application's assets/javascripts/application.js:
+Add this line to your application's `assets/javascripts/application.js`:
 
 ```ruby
 //= require ...
@@ -39,9 +39,13 @@ Add the following to a web page:
 Add the following to the appropriate js/coffee file:
 
 ```
-ready = ->
+# Turbolinks 5
+$(document).on 'turbolinks:load', ->
+  Redoc.init('/swagger.yml', {})
+  return
 
-  # initialize redoc from swagger.yaml
+# vanilla JS
+ready = ->
   Redoc.init('/swagger.yml', {})
 
 $(document).ready(ready)
@@ -54,6 +58,7 @@ If you want detailed information on it usage, you can refer to original document
 
 ## Changelog
 
+  - v1.19.0: bump, stop shipping the unminified version to save space
   - v1.3.3 : bump
   - v1.3.2 : bump
   - v1.3.0 : initial version

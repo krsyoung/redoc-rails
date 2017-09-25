@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Christopher Young"]
   spec.email         = ["krsyoung@gmail.com"]
 
-  spec.summary       = %q{Gemify redoc.js library for Rails assets pipeline}
-  spec.description   = %q{Wrapping redoc.js library with ruby gem for easy use in Rails projects}
+  spec.summary       = %q{Gemify redoc.min.js library for Rails assets pipeline}
+  spec.description   = %q{Wrapping redoc.min.js library with ruby gem for easy use in Rails projects}
   spec.homepage      = "https://github.com/krsyoung/redoc-rails"
   spec.license       = "MIT"
 
@@ -26,7 +26,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "rails", '~> 3.1'
+  spec.add_development_dependency "rails", '~> 4.2'
 
   spec.add_development_dependency "bundler", "~> 1.9"
   spec.add_development_dependency "rake", "~> 10.0"

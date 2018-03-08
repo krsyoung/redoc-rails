@@ -1,5 +1,5 @@
 module ReDoc
   module Rails
-    VERSION = "1.19.0"
+    VERSION = "1.21.1"
   end
 end

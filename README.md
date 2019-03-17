@@ -58,6 +58,7 @@ If you want detailed information on it usage, you can refer to original document
 
 ## Changelog
 
+  - v1.22.2: bump, latest stable redoc plus update gems
   - v1.21.2: bump
   - v1.19.0: bump, stop shipping the unminified version to save space
   - v1.3.3 : bump
